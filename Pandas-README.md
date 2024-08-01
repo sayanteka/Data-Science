@@ -34,6 +34,11 @@
    
 5. df['colA'].drop_duplicates().head(2)
 
+# Rank
+1. df['rank'] = df['position'].rank(method='first')
+   
+   top10 = df[df['rank'] <= 10]
+
 
    
 
