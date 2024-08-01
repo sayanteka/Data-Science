@@ -19,6 +19,10 @@
    
        df.loc[index, 'colA']=row['colB']
    
-2.
+2. data.loc[(data['colA'] == 'val1') & (data['colB'] == 'val2'), 'colB'] = new_value
+
+3. df.loc[df['colA'] == 'val1', 'colB']*=5
+
+4. 
 
 
