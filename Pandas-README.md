@@ -16,6 +16,7 @@
 
 # Loc
 1. for i,row in df.iterrows():
+   
        df.loc[index, 'colA']=row['colB']
    
 2.
