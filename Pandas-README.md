@@ -4,7 +4,7 @@
    
 # concat
 1. df3 = pd.concat([df1, df2]).drop_duplicates().reset_index(drop=True)  
-   therefore drop=true.
+   
 # Merge
 1. df3=pd.merge(df2,df1,how="outer", indicator="Exist") 
    
@@ -15,7 +15,7 @@
 4. df['abc'] =np.where(df['M'].isna() & ~df['Earliest_M'].isna(),2, np.where(~df['M'].isna(), 1, np.nan))
 
 # Loc
-1. for i,row in df.iterrows():
+1. for index,row in df.iterrows():
    
        df.loc[index, 'colA']=row['colB']
    
