@@ -14,4 +14,10 @@
 3. df.replace('', np.nan, inplace=True)
 4. df['abc'] =np.where(df['M'].isna() & ~df['Earliest_M'].isna(),2, np.where(~df['M'].isna(), 1, np.nan))
 
+# Loc
+1. for i,row in df.iterrows():
+       df.loc[index, 'colA']=row['colB']
+   
+2.
+
 
