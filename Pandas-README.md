@@ -23,6 +23,18 @@
 
 3. df.loc[df['colA'] == 'val1', 'colB']*=5
 
-4. 
+# Statistics
+1. df.info()
+   
+2. df['A'].value_counts()
+   
+3. df.sort_values(by = ['colA', 'colB'], ascending = [False, True]).head(2)
+
+4. df.drop_duplicates(subset=['colA']).head(2)
+   
+5. df['colA'].drop_duplicates().head(2)
+
+
+   
 
 
