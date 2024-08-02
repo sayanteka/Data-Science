@@ -93,6 +93,10 @@
     
     pattern: '@example\.com$'
 
+2. for index, name in enumerate(id):
+   
+       df.loc[df['B'].str.contains(name, regex=True, na=False), 'B'] = name
+
 # idxmax or idxmin
 
 1. df.idxmax()
