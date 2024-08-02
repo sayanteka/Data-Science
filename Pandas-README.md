@@ -98,6 +98,12 @@
 1. df.idxmax()
    
 2. df.idxmin()
+
+# iter-tuples
+
+1. for row in df.itertuples(index=True, name='Pandas'):
+   
+       print(getattr(row, "Name"), getattr(row, "Percentage"))
      
 
 
