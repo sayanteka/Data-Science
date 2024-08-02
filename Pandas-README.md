@@ -9,9 +9,12 @@
 1. df3=pd.merge(df2,df1,how="outer", indicator="Exist") 
    
 # If else in pandas
-1. df['A']=  df['C'].where(df['C'].notna(),df['A']) 
+1. df['A']=  df['C'].where(df['C'].notna(),df['A'])
+   
 2. df['A']=  df['A'].where(df['C'].isna(),df['C'])
+   
 3. df.replace('', np.nan, inplace=True)
+   
 4. df['abc'] =np.where(df['M'].isna() & ~df['Earliest_M'].isna(),2, np.where(~df['M'].isna(), 1, np.nan))
 
 # Loc & Filtering
@@ -40,8 +43,11 @@
 
 7. df.nunique()
 
+8. duplicate_scores = df[df.duplicated(['Score'], keep=False)] #keep=first, last, true, false. Mark all dupli as false
+ 
+
 # Rank
-1. df['rank'] = df['position'].rank(method='first')
+1. df['rank'] = df['position'].rank(method='dense')
    
    top10 = df[df['rank'] <= 10]
 
@@ -63,6 +69,7 @@
 4. df.groupby(['A','B'], as_index = False).agg({'C' : 'mean','D':'max'})
 
 5. def custom_func(group):
+   
     if group['G'].eq('COM').any() and pd.isna(group['A']).any() and group['Category'].eq('Gen').any():
    
         group.loc[group['Gate'] == 'not_in_category', 'Actual'] = np.nan
@@ -114,6 +121,12 @@
 1. df.set_index('Name')
    
 2. pivot_table = pd.pivot_table(df, values='Value', index='Date', columns='Categorical_col_val', aggfunc='sum')
+
+# Strings
+
+1. filtered_names = df[df['Employee Name'].str.startswith('A')]
+
+2. filtered_names = df[df['Employee Name'].str.lower().str.startswith('a')]
      
 
 
