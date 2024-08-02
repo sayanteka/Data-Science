@@ -76,7 +76,9 @@
 
 # Regex
  1. matches = df['Email'].str.contains(pattern, regex=True)
+    
     print(df[matches])
+    
     pattern: '@example\.com$'
      
 
