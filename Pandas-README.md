@@ -92,6 +92,12 @@
     print(df[matches])
     
     pattern: '@example\.com$'
+
+# idxmax or idxmin
+
+1. df.idxmax()
+   
+2. df.idxmin()
      
 
 
