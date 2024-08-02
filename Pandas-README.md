@@ -104,6 +104,12 @@
 1. for row in df.itertuples(index=True, name='Pandas'):
    
        print(getattr(row, "Name"), getattr(row, "Percentage"))
+
+# Pivot-table
+
+1. df.set_index('Name')
+   
+2. pivot_table = pd.pivot_table(df, values='Value', index='Date', columns='Categorical_col_val', aggfunc='sum')
      
 
 
