@@ -36,6 +36,10 @@
    
 5. df['colA'].drop_duplicates().head(2)
 
+6. df.unique()
+
+7. df.nunique()
+
 # Rank
 1. df['rank'] = df['position'].rank(method='first')
    
@@ -60,8 +64,16 @@
 
 5. def custom_func(group):
     if group['G'].eq('COM').any() and pd.isna(group['A']).any() and group['Category'].eq('Gen').any():
+   
         group.loc[group['Gate'] == 'not_in_category', 'Actual'] = np.nan
+   
     return group
+
+6. indices = group[group['A'] == '3'].index
+   
+   is_blank = group.loc[indices, 'Actual'].isna()
+   
+   table.loc[3_indices[is_blank], 'Actual'] = date
 
 
 # Lambda
