@@ -39,7 +39,13 @@
    
    top10 = df[df['rank'] <= 10]
 
-# 
+# Explode
+
+1. df['A']=df['A'].str.split('/')
+
+2. df=df.explode('A')
+
+3. df['A']=pd.to_numeric(df['A'])
 
 
    
