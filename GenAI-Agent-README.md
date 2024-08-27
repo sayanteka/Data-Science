@@ -1,8 +1,8 @@
-#Project Overview
+## Project Overview
 
 Development of a chatbot & analytics web page using Agent.
 
-Tech Stacks
+## Tech Stacks
 
 1. Frontend:
 
@@ -20,7 +20,7 @@ Deployed using FastAPI.
 
 Framework used for LLM.
 
-Logical Flow
+## Logical Flow
 
 1. User Interaction:
 
@@ -42,10 +42,10 @@ The Agent interprets the query, decides which action to execute (function to cal
 
 Used for responding to analytics-related queries.
 
-Deployment
+## Deployment
 
-Built docker images for both frontend and backend and defined in docker compose.yml.
+1. Built docker images for both frontend and backend and defined in docker compose.yml.
 
-Use of Github Actions to push the image to registry.
+2. Use of Github Actions to push the image to registry.
 
-On every push, a new tag is generated.The tag needs to be updated in workspace for the application to be live.
+3. On every push, a new tag is generated.The tag needs to be updated in workspace for the application to be live.
