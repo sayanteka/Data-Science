@@ -16,7 +16,7 @@ After 2 mins , another api call is made which sends the output of background tas
 400: It indicates bad req. It happens when server is down related to 3rd party api.
 
 Pydantic:
-FastAPI uses Pydantic for data validation for get,post req etc.
+FastAPI uses Pydantic for data validation for get,post req and response etc.
 
 Path & Query in FastAPI URL: 
 In @app.get("/items/{item_id}").
