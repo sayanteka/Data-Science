@@ -4,6 +4,8 @@ Benefits: It supports async programming due to which it can handle large number 
 
 FastAPI is built on top of Starlette (a lightweight ASGI framework) and uses Uvicorn as the ASGI server.
 
+Uvicorn: Default deployment server of fastapi.
+
 Background task: Task/program can run in the backend even after sending response to client. (This has been implemented)
 
 Background Task Implementation:
@@ -23,7 +25,11 @@ Here item_id is a path parameter.
 Body: Response to be sent or received validated using pydantic.
 
 
+CorsMiddleware
 
+APIRouter: Implemented
+
+To define routes in separate files or modules and then include them in  main application.
 
 
 
