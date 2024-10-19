@@ -42,10 +42,12 @@ https://colab.research.google.com/drive/1q6ejIWrorckUdkLrLsHl9PnVQhXWQ96i?usp=sh
 
  LLMChainExtractor: Compresses documents retrieved from base retriever.
 
-LLMChainExtractor, which will iterate over the initially returned documents and extract from each only the content that is relevant to the query.
+LLMChainExtractor, which will iterate over the initially returned documents and extract from each only the content that is relevant to the query: In retrieval.ipynb
 
 At the end we will combine LLM text compressor with maximum marginal relevance search for efficient retrieval.
 
 Q&A: chain type=map reduce or refine
+
+ConversationalRetrievalChain : In chat.ipynb
 
 
