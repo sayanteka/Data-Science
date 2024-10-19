@@ -16,9 +16,13 @@ Maximum marginal relevance.
 
 ## Fine tuning LLM
 
-Instruction based fine tuning
+Instruction based fine tuning. Look it from data_prep.ipynb
 
-Split the data, tokenization, padding and truncation.
+Data should be in table with one column as Question and another column as Answer.
+
+Data conversion to required form and then perform tokenization, padding and truncation.
+
+Parameter for training can be checked from summarization model in github
 
 EleutherAI/pythia-70m: Model used for fine tuning
 
@@ -49,5 +53,10 @@ At the end we will combine LLM text compressor with maximum marginal relevance s
 Q&A: chain type=map reduce or refine
 
 ConversationalRetrievalChain : In chat.ipynb
+
+
+
+
+
 
 
