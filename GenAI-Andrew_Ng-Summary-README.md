@@ -24,6 +24,8 @@ EleutherAI/pythia-70m: Model used for fine tuning
 
 ## Chat with your data
 
+Framework used: Langchain
+
 Pypdf loader, youtube audio loader, whisper-parser(converting speech to text), WebBaseLoader
 
 Recursive character splitting
@@ -43,5 +45,7 @@ https://colab.research.google.com/drive/1q6ejIWrorckUdkLrLsHl9PnVQhXWQ96i?usp=sh
 LLMChainExtractor, which will iterate over the initially returned documents and extract from each only the content that is relevant to the query.
 
 At the end we will combine LLM text compressor with maximum marginal relevance search for efficient retrieval.
+
+Q&A: chain type=map reduce or refine
 
 
