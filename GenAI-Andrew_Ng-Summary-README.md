@@ -22,6 +22,9 @@ Data should be in table with one column as Question and another column as Answer
 
 Data conversion to required form and then perform tokenization, padding and truncation.
 
+Max steps to train for (max_steps=max_steps): If batch size=5. It means in each batch 5 samples will be used for
+training. For how long? Steps come into the picture i.e for 3 times if max_steps=3 and so on.
+
 Parameter for training can be checked from summarization model in github
 
 EleutherAI/pythia-70m: Model used for fine tuning
