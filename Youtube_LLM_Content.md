@@ -11,3 +11,12 @@ Logic: Extract images and tables from pdf , summarize and store in a vectorstore
 Model used: "gpt-4-vision-preview" [Images, text, documents stored]
 
 Unstructure library: tables, image, text extractions
+
+
+<img width="597" alt="image" src="https://github.com/user-attachments/assets/6a6dbf6c-d86d-47a3-9333-8d67d7bea170">
+
+
+
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/cdb1da75-dbad-46cc-b7fc-59becb0a12d6">
+
+
