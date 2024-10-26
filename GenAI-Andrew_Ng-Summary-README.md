@@ -78,6 +78,8 @@ Data agent.ipynb talks about use of agentic RAG . Like there can be diff retriev
 Data_Advance_Rag talks about query rewriting, document compression 
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/eeed523b-40fa-46fd-87a9-a655d49dc240">
 
+Semantic chunker is used as text documents are splitted linewise and then those lines are combined using semantic chunker.
+
 
 
 
