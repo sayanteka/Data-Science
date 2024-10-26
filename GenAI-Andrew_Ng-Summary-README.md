@@ -14,6 +14,9 @@ Cross encoder to rerank retrived documents.
 
 Maximum marginal relevance.
 
+## Udemy_OpenAI_Machine-Learning-Data-Science-and-Generative-AI-with-Python
+
+
 ## Fine tuning LLM
 
 Instruction based fine tuning. Look it from data_prep.ipynb
