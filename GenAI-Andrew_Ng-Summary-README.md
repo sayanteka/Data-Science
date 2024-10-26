@@ -71,6 +71,12 @@ Q&A: chain type=map reduce or refine
 ConversationalRetrievalChain : In chat.ipynb
 
 
+## Udemy_OpenAI_Machine-Learning-Data-Science-and-Generative-AI-with-Python 
+
+Data agent.ipynb talks about use of agentic RAG . Like there can be diff retrievers as tools. Fed to llm and then based on description each retriever is selected.
+
+Data_Advance_Rag talks about query rewriting, document compression 
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/eeed523b-40fa-46fd-87a9-a655d49dc240">
 
 
 
