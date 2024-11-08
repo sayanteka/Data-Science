@@ -81,6 +81,29 @@ Data_Advance_Rag talks about query rewriting, document compression
 Semantic chunker is used as text documents are splitted linewise and then those lines are combined using semantic chunker.
 
 
+## Functions-Tools-Agents-with-Langchain
+
+In lecture2: Simple chain contains prompt, model and parser. Use of runnable map in retrieval and then prompt,model
+abd parser being passed. Look at interface section. It results into parsing output in json mode.
+
+In lecture3: convert pydantic into functions(It can be multiple), bind model with functions, then create a chain where model is passes along with prompt.
+
+In lecture 4: Same , convert pydantic into functions . It focuses on that mainly used for sentiment analysis. Doing some sort of extractions or tagging in text
+
+In lecture5: Concept of tool. First build tools, convert to openai functions, do routing and get parsed output
+
+In lecture 6: create conversational agent by binding tools in this way
+
+tools = [get_current_temperature, search_wikipedia] and then converting to openai functions
+
+https://python.langchain.com/v0.1/docs/use_cases/question_answering/conversational_retrieval_agents/
+
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/b65a4365-4b38-46ba-9977-edc7f008f3e1">
+
+
+
+
+
 
 
 
