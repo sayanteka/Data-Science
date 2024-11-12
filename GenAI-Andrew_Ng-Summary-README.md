@@ -100,6 +100,67 @@ https://python.langchain.com/v0.1/docs/use_cases/question_answering/conversation
 
 <img width="482" alt="image" src="https://github.com/user-attachments/assets/b65a4365-4b38-46ba-9977-edc7f008f3e1">
 
+## Langgraph
+
+Aritra sen
+
+LangGraph_01_GettingStarted:
+
+Start looking from Simplyfying the State addition and maintainence
+
+Three functions are defined. 1st function does a llm call for classification. 
+And then output of it goes to router based on which it
+decides which one to call like either Rag or normal llm. 
+
+llm call for classification: Router: Rag : End
+   
+or
+
+llm call for classification: Router: normal llm : End
+
+LangGraph_02_ToolCalling:
+
+Single tool multiply is called
+
+LangGraph_05_Bring_Human_In_the_loop_Agents:
+
+Multiple tools are called
+
+Lesson_2_Student:
+
+Same thing above but from deeplearning.ai
+functions are represented by nodes
+And class method is defined for agent.
+
+LLM is bind with tools.
+
+
+In agent,
+
+first llm call is made. Based on query it selects tools (1st function)
+
+2nd function take action checks whether that tool is present. If present then it is invoked.
+
+result displayed based on invoked.
+
+call_openai: 1st node function
+
+take_action: 2nd node function
+
+exists_action: conditional function/router
+
+Functions are represented by functions
+
+Lesson_2_Student (1):
+
+In this I have tried with dummy tools.
+
+Lesson_2_Student (2):
+
+In this agent class by combing tool and basic graph. Look at graph diagram in the code.
+
+
+
 
 
 
