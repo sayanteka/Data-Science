@@ -159,7 +159,13 @@ Lesson_2_Student (2):
 
 In this agent class by combing tool and basic graph. Look at graph diagram in the code.
 
+## Multi-modal
 
+One multimodal solution is present in open source llms directortory by the name multi-modal-opensource. It uses chroma db to store the image embeddings. Model used is clip from hugging face. In metadata we store the path of images in local or cloud.
+
+Once similar vectors are obtained, corresponding image in metadata fetched from user query. 
+
+Similar thing in case of deeplearning.ai multimodal repo present in git. Only diff is weaviate library used.
 
 
 
